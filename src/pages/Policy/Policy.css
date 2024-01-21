@@ -1,0 +1,14 @@
+.privacy {
+  background-color: rgb(214, 210, 210);
+  margin: 20px 20px;
+  padding: 20px 20px;
+  border-radius: 10px;
+  color: var(--color-lightseagreen);
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.privacy1 {
+  line-height: 40px;
+  letter-spacing: 0.5px;
+}

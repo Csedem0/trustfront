@@ -1,0 +1,14 @@
+@media screen and (max-width: 900px) {
+  .dashboard-icon-name,
+  .Home-article4 {
+    display: none;
+  }
+
+  .Home-section-3 {
+    width: 35px;
+  }
+
+  .Home-section-5 {
+    font-size: 20px;
+  }
+}

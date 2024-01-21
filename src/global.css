@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap');
+body {
+  margin: 0;
+  line-height: normal;
+  background-color: rgb(214, 210, 210);
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-urbanist: Urbanist;
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-mini: 15px;
+  --font-size-5xl: 24px;
+  --font-size-base: 16px;
+  --font-size-3xl: 22px;
+  --font-size-9xl: 28px;
+  --font-size-xl: 20px;
+  --font-size-xs: 12px;
+  --font-size-6xl: 25px;
+
+  /* Colors */
+  --color-whitesmoke-100: #f5f7fa;
+  --color-whitesmoke-200: #f4f4f6;
+  --color-whitesmoke-300: #f3f3f5;
+  --color-whitesmoke-400: #eee;
+  --color-lightslategray: #1f3272;
+  --color-lightseagreen: rgb(25, 53, 129);
+  --color-gray-100: #181a20;
+  --color-gray-200: rgba(255, 255, 255, 0.7);
+  --color-white: #fff;
+  --color-gainsboro: #e5e3e8;
+  --color-black: #000;
+  --color-darkslateblue: #182651;
+  --color-firebrick: #d13329;
+  --color-darkslategray: #31343b;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+  --br-21xl: 40px;
+  --br-31xl: 50px;
+  --br-xl: 20px;
+  --br-6xl: 25px;
+}

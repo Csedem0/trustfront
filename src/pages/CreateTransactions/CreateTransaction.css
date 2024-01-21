@@ -1,0 +1,78 @@
+.Create-transfer-article {
+  background-color: rgb(214, 210, 210);
+  margin: 30px 30px;
+  padding: 50px 50px;
+  border-radius: 10px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.Create-transfer-article1 {
+  margin-bottom: 50px;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.Create-transfer-article2 {
+  margin-bottom: 20px;
+  color: var(--color-lightseagreen);
+  font-weight: bolder;
+}
+
+.Create-transfer-article3 {
+  margin-bottom: 40px;
+  width: 50%;
+  height: 38px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid black;
+}
+
+.Create-transfer-article4a {
+  margin-left: 80%;
+  color: white;
+  background-color: var(--color-lightseagreen);
+  height: 50px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+  .dashboard-icon-name,
+  .Home-article4 {
+    display: none;
+  }
+
+  .Home-section-3 {
+    width: 35px;
+  }
+
+  .Home-section-5 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .Create-transfer-article4a {
+    margin-left: 10%;
+    background-color: var(--color-lightseagreen);
+    height: 50px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .Create-transfer-article3 {
+    margin-bottom: 40px;
+    width: 100%;
+    height: 38px;
+    color: gray;
+  }
+}
